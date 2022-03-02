@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "database": "json-server --watch db.json --port 4000",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
